@@ -112,7 +112,7 @@ def sobre_projeto():
     print('para satélites brasileiros (CBERS-4A, AMAZONIA-1, SCD-2) em órbita LEO.')
     print('O sistema usa dados públicos da NORAD e a 3ª Lei de Kepler para simular')
     print('propagação orbital e gerar relatórios de risco por faixa orbital (LEO/MEO/GEO).')
-    print('Solução gratuita em português, alternativa ao STK. (ODS 9)')
+    print('Solução desenvolvida para a Global Solution - FIAP, e também para a Indústria Espacial. (ODS 9)')
     print()
     pausar()
 
