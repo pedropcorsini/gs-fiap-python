@@ -89,7 +89,7 @@ def classificar_orbita(altitude):
 def mostrar_menu():
     """Exibe o menu com as opções disponíveis."""
     print('=' * 105)
-    exibir_nome_progama()
+    exibir_nome_programa()
     print('=' * 105)
     print('  1. Sobre o projeto')
     print('  2. Cadastrar satélite brasileiro')
@@ -105,8 +105,9 @@ def sobre_projeto():
     """Exibe informações gerais sobre o Orbital Watch."""
     limpar_tela()
     print('=' * 48)
-    print('SOBRE O ORBITAL WATCH')
+    exibir_nome_programa()
     print('=' * 48)
+    print('SOBRE O ORBITAL WATCH')
     print()
     print('Orbital Watch monitora detritos espaciais e calcula riscos de conjunção')
     print('para satélites brasileiros (CBERS-4A, AMAZONIA-1, SCD-2) em órbita LEO.')
@@ -124,7 +125,7 @@ def sobre_projeto():
 # O 'match/case' e como um if/elif mais elegante do Python 3.10+.
 # ============================================================
 
-def exibir_nome_progama():
+def exibir_nome_programa():
     """
     Exibe nome do programa.
     """
